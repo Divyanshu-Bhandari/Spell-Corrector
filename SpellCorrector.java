@@ -22,7 +22,7 @@ public class SpellCorrector extends JFrame {
     public SpellCorrector() {
         dictionary = new HashSet<>();
         suggestionMap = new HashMap<>();
-        loadDictionary("C:\\Users\\divya\\Desktop\\dictionary.txt");
+        loadDictionary("Dictonary.txt");
         setTitle("Spell Corrector");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(700, 500);

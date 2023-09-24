@@ -12,13 +12,13 @@ import java.util.*;
 import java.util.List;
 
 @SuppressWarnings("serial")
-public class SpellCorrectorProject2 extends JFrame {
+public class SpellCorrector extends JFrame {
     private JTextArea inputField;
     private JPanel suggestionPanel;
     private Set<String> dictionary;
     private Map<JButton, String> suggestionMap;
 
-    public SpellCorrectorProject2() {
+    public SpellCorrector() {
         dictionary = new HashSet<>();
         suggestionMap = new HashMap<>();
         loadDictionary("C:\\Users\\divya\\Desktop\\dictionary.txt");
@@ -180,6 +180,6 @@ public class SpellCorrectorProject2 extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(SpellCorrectorProject2::new);
+        SwingUtilities.invokeLater(SpellCorrector::new);
     }
 }

@@ -11,7 +11,6 @@ import java.io.IOException;
 import java.util.*;
 import java.util.List;
 
-@SuppressWarnings("serial")
 public class SpellCorrector extends JFrame {
     private JTextArea inputField;
     private JPanel suggestionPanel;

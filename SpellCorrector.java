@@ -11,6 +11,8 @@ import java.io.IOException;
 import java.util.*;
 import java.util.List;
 
+//We will require a txt file to show its working
+
 public class SpellCorrector extends JFrame {
     private JTextArea inputField;
     private JPanel suggestionPanel;
